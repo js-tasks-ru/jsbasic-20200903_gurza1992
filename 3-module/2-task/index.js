@@ -4,6 +4,16 @@
  * @param {number} b
  * @returns {number[]}
  */
+
+
 function filterRange(arr, a, b) {
-  // ваш код...
+
+  let result = arr.filter(function(number) {
+
+    return number >= a && number <= b;
+
+  });
+
+  return result;
+
 }
