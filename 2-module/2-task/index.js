@@ -4,5 +4,22 @@
  * @returns {Boolean}
  */
 function isEmpty(obj) {
-  // ваш код...
+
+  let array = [];
+
+  for (let key in obj) {
+
+    array.push(obj[key]);
+
+  }
+
+  if (array.length > 0) {
+
+    return false;
+
+  } else {
+
+    return true;
+
+  }
 }
